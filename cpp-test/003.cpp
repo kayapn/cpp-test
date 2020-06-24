@@ -2,8 +2,12 @@
 using namespace std;
 
 int main(){
-	cout << 1 + 1 << endl;
-	cout << 1 - 1 << endl;
-	cout << 1 * 1 << endl;
-	cout << 1 / 1 << endl;
+	string text;
+	double d;
+
+	cin >> text;
+	cin >> d;
+
+	cout << text << d << endl;
+
 }
