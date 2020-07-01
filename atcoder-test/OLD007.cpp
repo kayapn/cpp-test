@@ -11,7 +11,9 @@ int main(){
 
 	for (int i = 0; i < N; ++i) cin >> a[i];
 
-	sort(a,a + N,greater<int>());
+	//sort(a,a + N,greater<int>());
+	sort(a , a+ N, greater<int>());
+
 
 	int Alice = 0;
 	int Bob = 0;
