@@ -1,9 +1,2 @@
-tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
-
-vscode:
-  extensions:
-    - llvm-vs-code-extensions.vscode-clangd@0.1.5:VVxg4kW5VbJUP3ysCuG3Fg==
-    - vscodevim.vim@1.14.5:+kFqpG8yBqdS9oQCeXaVqA==
+image:
+  file: .gitpod.dockerfile
